@@ -1,0 +1,296 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-wrapper {
+    max-width: 1280px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.header .logo-wrapper .brand {
+    height: 34px;
+    width: 150px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33.71px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.header .navigation-wrapper .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 367px;
+    height: 20px;
+    gap: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 0;
+}
+
+.header .navigation-wrapper .navigation .sign-up {
+    color: #FF3998;
+}
+
+.hero-box {
+    margin-top: 198px;
+    margin-right: 240px;
+    display: flex;
+    flex-direction: row;
+    height: 519px;
+    justify-content: space-between;
+}
+
+.hero-box .info-wrapper {
+    height: 483px;
+    width: 620px;
+    padding: 18px 0;
+}
+.hero-box .info-wrapper .launching {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF3998;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+.hero-box .info-wrapper .info-title {
+    padding-top: 24px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    margin: 0;
+}
+
+.hero-box .info-wrapper .info-description {
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    width: 537px;
+}
+
+button {
+    width: 188px;
+    height: 75px;
+    border-radius: 40px;
+    margin-top: 41px;
+    font-weight: 600;
+    font-size: 20px;
+    border-width: 5px;
+    border-color: #FF3998;
+    background-color: white;
+}
+
+.hero-box .hero-box-image-wrapper img{
+    width: 328px;
+    height: 519px;
+    object-fit: cover;
+}
+
+
+
+
+.upsell {
+    background-image: url("background.svg");
+    margin-top: 182px;
+    height: 320px;
+    border-radius: 20px;
+    padding-top: 154px;
+    padding-left: 64px;
+}
+
+.upsell .upsell-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #111111;
+    margin: 0;
+}
+
+.upsell .upsell-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #111111;
+}
+
+.press-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    height: 49px;
+}
+
+.showcase-wrapper {
+    margin-top: 120px;
+}
+
+.showcase-wrapper .text .showcase-title {
+    font-weight: 500px;
+    font-size: 40px;
+
+}
+.showcase-wrapper .text .showcase-description {
+    font-weight: 500px;
+    font-size: 20px;
+line-height: 30px;
+margin-top: 24px;   
+color: #555555; 
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 56px;
+    gap: 40px;
+width: 1280px;
+}
+.showcase-item {
+    display: block;
+}
+
+.showcase-item-info {
+    height: 122px;
+    background-color: #EEEEEE;
+    padding: 24px;
+    column-gap: 24px;
+    row-gap: 12px;
+    display: grid;
+    border-radius: 0px 0px 20px 20px ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "series bid"
+                        "name price"
+                        "number days";
+}
+
+.bid {
+    grid-area: 1 / 2 / 2 / -1;
+}
+
+.number {
+    grid-area: 3 / 1 / -1 / 2;
+}
+
+.showcase-item-info .series {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FF8139;
+    display: flex;
+  
+}
+.showcase-item-info .name,
+.showcase-item-info .price {
+    font-size: 20px;
+    font-weight: 500;
+}
+.showcase-item-info .price,
+.showcase-item-info .days {
+    justify-self: right;
+}
+.showcase-item-info .number,
+.showcase-item-info .days {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.showcase-item-info .bid {
+    font-size: 12px;
+    font-weight: 500;
+    color: #777777;
+    text-transform: uppercase;
+    justify-self: right;
+}
+
+.footer-upsell {
+    margin-top: 120px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #EEEEEE;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
+}
+
+.footer-upsell {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 554px;
+    
+}
+
+.footer-upsell .info-wrapper {
+    height: 310px;
+    width: 651px;
+    margin: 120px 0;
+}
+
+.footer-upsell .info-wrapper .launching {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF3998;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+
+.footer-upsell .info-wrapper .footer-upsell-info-title {
+    padding-top: 24px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    margin: 0;
+}
+
+.footer-upsell .info-wrapper .info-description {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    width: 537px;
+}
+
+.footer-upsell-image-wrapper {
+    height: 467px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 87px;
+    color: #555555;
+}
+
+li {
+    list-style: none;
+}
