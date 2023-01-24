@@ -291,6 +291,74 @@ width: 1280px;
     color: #555555;
 }
 
+.footer-top-wrapper {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-wrapper .right {
+    width: 233px;
+    height: 136px;
+}
+
+.footer-top-wrapper .right .footer-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.footer-top-wrapper .right .footer-logo-wrapper .brand {
+    height: 34px;
+    width: 150px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33.71px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap; 
+}
+
+.footer-top-wrapper .right .collection {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.footer-top-wrapper .right .social-media-wrapper .social-media-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 117px;
+    height: 18px;
+    margin-top: 32px;
+}
+
+.footer-top-wrapper .left {
+    display: flex;
+    flex-direction: row;
+    width: 590px;
+    height: 139px;
+    justify-content: space-between;
+}
+
+.bottom-nav {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 li {
     list-style: none;
+    padding: 0;
+}
+
+.footer .bottom {
+    margin-top: 123px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
 }
